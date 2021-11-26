@@ -1,0 +1,93 @@
+.container {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  border: none;
+}
+
+.registrationFormContainer {
+  width: 23rem;
+  background-color: rgb(240, 237, 237);
+  border: none;
+  border-radius: 20px;
+  margin-top: 5%;
+  box-shadow: 4px 4px 10px grey, -6px -6px 10px white;
+}
+
+.registrationFormLegend {
+  width: 14rem;
+  padding: 10px;
+  border: none;
+  color: #dc143c;
+}
+.errorMessage {
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+  padding-left: 0.25rem;
+  color: red;
+}
+
+.form-group label {
+  font-size: 14px;
+}
+.form-group input {
+  height: 2.7rem;
+  width: 250px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(240, 237, 237);
+  box-shadow: 2px 2px 10px grey;
+  outline-style: none;
+  font-size: 16px;
+}
+.form-group select {
+  height: 2.7rem;
+  width: 250px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(240, 237, 237);
+  box-shadow: 2px 2px 10px grey;
+  outline-style: none;
+  font-size: 16px;
+  margin-left: 15px;
+}
+.mandatory {
+  color: red;
+  padding: 10px;
+}
+fieldset {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  padding: auto;
+}
+legend {
+  border-radius: 100px;
+  background-color: transparent;
+}
+.register_btn {
+  background-color: rgb(240, 237, 237);
+  height: 50px;
+  width: 100px;
+  border-radius: 13px;
+  box-shadow: 2px 2px 10px grey;
+  border: none;
+  color: #006400;
+}
+.register_btn:hover {
+  color: #008b8b;
+}
+.login-btn {
+  background-color: rgb(240, 237, 237);
+  height: 50px;
+  width: 100px;
+  border-radius: 13px;
+  margin: 10px;
+  box-shadow: 2px 2px 10px grey;
+  border: none;
+  text-decoration: none;
+}
+.login-btn:hover {
+  color: #ff8c00;
+}
