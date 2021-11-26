@@ -2,8 +2,6 @@ import React, { useEffect, useState ,useRef } from "react";
 import { Link, useNavigate } from 'react-router-dom';
 import "./Table.css";
 import Table from "./Table";
-import Modals from "./Modals.js";
-import "./Modals.css";
 import { Row } from "react-bootstrap";
 
 const Dashboard = () => {
