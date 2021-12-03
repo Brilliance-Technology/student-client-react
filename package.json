@@ -2,6 +2,8 @@
   "name": "studentmanagement",
   "version": "0.1.0",
   "private": true,
+  
+  "homepage": "http://Brilliance-Technology.github.io/studentmanagement",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.15.0",
